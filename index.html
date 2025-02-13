@@ -14,23 +14,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="resolucion">
-        <div class="container1">
+            <div class="row">
+                <div class="column">
+                    <div class="contenedor__fotos__fecha">
+                        <img src="/img/img5.png" alt="Imagen 1">
+                        <div class="texto__fecha">28</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="contenedor__fotos__fecha">
+                        <img src="/img/img2.png" alt="Imagen 2">
+                        <div class="texto__fecha">12</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="contenedor__fotos__fecha">
+                        <img src="/img/img3.png" alt="Imagen 3">
+                        <div class="texto__fecha">24</div>
+                    </div>
+                </div>
+            </div>
             <h1>Ivón & Ángel</h1>
             <h4>ENAMORARME DE TÍ ES LA PRUEBA QUE NECESITABA PARA CREER QUE LA VIDA PUEDE SER EXTRAORDINARIA</h4>
-            <div class="text1">
-                <h2>28 12 24</h2>
-            </div>
             <div class="foto">
                 <img scr="img1">
                 <img scr="img2">
                 <img scr="img3">
             </div>
+            <img src="./img/rayon.png">
         </div>
-        <div class="container2">
-            <div class="text2">
+        <div class="contenedor__fecha">
+            <div class="texto__fecha">
                 <h4>¡Nos casamos!</h4>
                 <p>Nos emociona que seas parte de este día tan especial el día</p>
                 <h4>SÁBADO</h4>
@@ -41,40 +61,59 @@
                 <h2>CHIQUILISTLÁN, JAL</h2>
             </div>
         </div>
-       <div class="container3">
-            <div class="text3">
+       <div class="contenedor__padres">
+            <div class="flores">
                 <h4>Nuestros Padres</h4>
                 <h6>NOVIA</h6>
                 <p>Alicia Zarco Arroyo<br>Pedro Guerra Cervantes</p>
+                <img src="./img/flowers.png">
                 <h6>NOVIO
                 <p>Esperanza Aguilar Martinez<br>Modesto Nava Ruiz</p>
             </div>
        </div>
-       <div class="container4">
-            <div class="text4">
-                <h4>Nuestros Padrinos</h4>
+       <div class="contenedor__padrinos">
+            <h4>Nuestros Padrinos</h4>
+            <div class="texto__padrinos">
                 <h6>ÁLBUM</h6>
                 <p>Sofía Aguilar</p>
+            </div>
                 <h6>RAMO</h6>
                 <p>María Magdalena Nava Aguilar<br>Erika Graciela Rodriguez</p>
+            <div class="texto__padrinos">
                 <h6>COPAS</H6>
                 <p>Cecilia Guerra<br>Marco Pulido</p>
+            </div>
+            <div class="texto__padrinos">
                 <h6>COJINES</h6>
                 <p>Arlet Contreras Carmona</p>
+            </div>
+            <div class="texto__padrinos">
                 <h6>IMAGEN</h6>
                 <p>Laura Flores</p>
+            </div>
+            <div class="texto__padrinos">
                 <h6>ARRAS</h6>
                 <p>Angélica María Navarro<br>Nazario Pérez</p>
+            </div>
+            <div class="texto__padrinos">
                 <h6>VELACIÓN</h6>
                 <p>Lourdes López<br>Eduardo Zarco</p>
+            </div>
+            <div class="texto__padrinos">
                 <h6>ANILLOS</h6>
                 <p>Guadalupe Zarco<br>Jacob Rodriguez</p>
+            </div>
+            <div class="texto__padrinos">
                 <h6>BIBLIA Y ROSARIO</h6>
                 <p>Magdalena Lara Ramos<br>Javier Zarco</p>
+            </div>
+            <div class="texto__padrinos">
                 <h6>LAZO</h6>
                 <p>Elizeth Nava Aguilar<br>Juan Carlos Flores Pérez</p>
             </div>
+            <img src="./img/copas.png">
        </div>
+       
        <div class="container5">
             <div class="text5">
                 <h1>Save The Date</h1>
@@ -82,26 +121,20 @@
                 <p>Capilla de nuestra señora de la defensa (Sector 1)</p>
                 <p>Chiquilistlán, Jalisco</p> 
                 <p>12:00 PM</p> 
-                <button type="button" id="ubicacion" onclick="verCeremonia()">Ubicación</button>
-                <script>
-                    function verCeremonia() {
-                    window.location.href = "https://www.amazon.com.mx/"; 
-                    }   
-                </script>
+                <a class="ubicacion" href = "https://www.google.com/maps/place/Capilla+de+Nuestra+Se%C3%B1ora+de+la+Defensa+(sector+1),+Tepeyac,+Centro,+48640+Chiquilistl%C3%A1n,+Jal./data=!4m2!3m1!1s0x8425950d2eeb3773:0x203c0307f6c7c597?entry=gps&coh=192189&g_ep=CAESBzI0LjQ3LjQYACCenQoqdSw5NDI0MjU0Nyw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICTVg%3D">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Ubicación</a>
                 <h6>AL TERMINAR NOS VEMOS EN LA</h6>
                 <h4>RECEPCIÓN</h4>
                 <p>Salón Grupo G.A.N.A.</p>
                 <p>Chiquilistlán, Jalisco</p> 
-                <button type="button" id="ubicacion" onclick="verRecepcion()">Ubicación</button>
-                <script>
-                    function verRecepcion() {
-                    window.location.href = "https://www.amazon.com.mx/"; 
-                    }   
-                </script>
+                <a class="ubicacion" href = "https://www.google.com/maps/place/Grupo+de+Ayuda+a+Ni%C3%B1os+y+Ancianos+A.+C.,+Donato+Guerra+12,+Centro,+48640+Chiquilistl%C3%A1n,+Jal./data=!4m2!3m1!1s0x842594362195536f:0x9c4cd90a1762eb6?entry=gps&coh=192189&g_ep=CAESBzI0LjQ3LjQYACCenQoqfiw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIxMjY2Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICTVg%3D&g_st=aw">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Ubicación</a>
             </div>
        </div>
        <div class="container6">
-            <div class="text6">
+            <div class="texto__vestimenta">
                 <h4>Código de vestimenta</h4>
                 <h1>Formal</h1>
                 <h4>EL <span class="negritas">BLANCO</span> ES UN COLOR HERMOSO, PERO EN NUESTRA BODA <span class="negritas">ES EXCLUSIVO
@@ -109,7 +142,7 @@
             </div>
        </div>
        <div class="container7">
-            <div class="text7">
+            <div class="texto__burbujas">
                 <h4>EN LUGAR DE ARROJAR ARROZ A LOS NOVIOS,<br><span class="negritas">¡HABRÁ BURBUJAS PARA CELEBRAR!</span>.</h4>
             </div>
 
