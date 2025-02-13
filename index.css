@@ -1,35 +1,126 @@
 .resolucion {
-    max-width:  2560px; /* Ancho de la invitacion */
-    max-width: 1080px; /* Altura de la invitacion */
+    width: 99%;
     justify-content: center;
     text-align: center;
     align-items: center; 
 }
 
+
 h1{
     font-family: "Licorice", serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 80px;
 }
+
 h2{
     font-family: "Poiret One", serif;
     font-weight: 400;
+    font-size: 20px;
 }
 h4{
     font-family: "Cinzel", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
 }
 h5{
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+h6{
+
 }
 
 p{
     font-family: "Oooh Baby", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 15px;
+}
+
+
+
+.ubicacion{
+    width: 150px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 5px;
+    text-decoration: none;
+    border: 2px solid #009999;
+    color: #035252;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ubicacion:hover{
+    background-color: #009999;
+    color: white;
+}
+
+.flores img{
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor__padrinos img{
+    width: 100px;
+    height: 120px;
+}
+
+.texto__fecha{
+    font-size: 60px;
+    font-family: "Poiret One", serif;
+}
+
+
+.texto__padrinos{
+    gap: 3px;
+}
+.texto__vestimenta{
+    padding: 0px 10px 10px 0px;
+}
+
+.texto__burbujas{
+    padding: 0px 10px 10px 0px;
 }
 .negritas{
     font-weight: bold;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around; /* Espacio uniforme entre las columnas */
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.contenedor__fotos__fecha {
+    position: relative;
+    text-align: center;
+}
+
+.contenedor__fotos__fecha img {
+    width: 100px; /* Ajusta el tamaño de la imagen al contenedor */
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%; /* Ajusta esta posición según lo necesites */
+    left: 50%;/* Ajusta esta posición según lo necesites */
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px; /* Ajusta el tamaño de la fuente según lo necesites */
 }
