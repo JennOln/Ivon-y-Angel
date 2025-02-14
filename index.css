@@ -5,12 +5,25 @@
     align-items: center; 
 }
 
-
 h1{
     font-family: "Licorice", serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 100px;
+}
+
+.savethedate {
+    font-family: "Licorice", serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 80px;
+}
+
+.fecha__savethedate {
+    font-family: "Alumni Sans Pinstripe", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 50px;
 }
 
 h2{
@@ -18,30 +31,32 @@ h2{
     font-weight: 400;
     font-size: 20px;
 }
+
 h4{
     font-family: "Cinzel", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 22px;
 }
 h5{
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
-    font-size: 20px;
-}
-
-h6{
-
+    font-size: 17px;
 }
 
 p{
     font-family: "Oooh Baby", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 25px;
 }
 
-
+.imagen__rayon{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
 .ubicacion{
     width: 150px;
@@ -61,9 +76,18 @@ p{
     color: white;
 }
 
+.contenedor_savethedate{
+    padding: 10px;
+}
+
+
 .flores img{
     width: 150px;
     height: 150px;
+}
+
+.contenedor__padrinos{
+    padding: 10px;
 }
 
 .contenedor__padrinos img{
@@ -77,20 +101,56 @@ p{
 }
 
 
-.texto__padrinos{
-    gap: 3px;
-}
-.texto__vestimenta{
-    padding: 0px 10px 10px 0px;
+.texto__padrinos h4,
+.texto__padrinos p{
+    margin-top: 0;
+    padding: 0;
 }
 
-.texto__burbujas{
-    padding: 0px 10px 10px 0px;
+.texto__padrinos{
+    margin-bottom: 20px;
 }
+
+.texto__padrinos h4{
+    margin-bottom: 1px;
+}
+
+.texto__padrinos p{
+    margin-top: 1px;
+}
+
 .negritas{
     font-weight: bold;
 }
 
+.subtitulo{
+    font-weight: bold;
+}
+
+
+.row__date {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.column_date {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.column__date__border {
+    border-left: 1px solid black; /* Borde en el lado izquierdo */
+    border-right: 1px solid black; /* Borde en el lado derecho */
+    font-family: "Licorice", serif;
+    padding-top: 18px;
+    font-weight: 400;
+    font-size: 50px;
+}
 
 .row {
     display: flex;
@@ -103,6 +163,18 @@ p{
     padding: 10px;
 }
 
+.contenedor__vestimenta{
+    padding: 10px;
+    text-align: justify;
+}
+
+.contenedor__burbujas{
+    padding: 10px;
+    text-align: center;
+}
+.contenedor__padrinos{
+    padding: 20px;
+}
 .contenedor__fotos__fecha {
     position: relative;
     text-align: center;
@@ -123,4 +195,24 @@ p{
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 20px; /* Ajusta el tamaño de la fuente según lo necesites */
+}
+
+.footer{
+    background-color:#009999;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.footer__fecha {
+    color:rgba(255, 255, 255, 0.5);
+    font-family: "Poiret One", serif;
+    font-size: 10px;
+}
+
+.footer__nombres{
+    font-family: "Licorice", serif;
+    font-size: 20px;
+    color:#035252;
+    
 }
